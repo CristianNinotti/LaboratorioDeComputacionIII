@@ -3,4 +3,5 @@
 <ul>
   <li>Practica Cervezas</li>
   <li>Practica Obligatoria Peliculas</li>
+  <li>Resumenes</li>
 </ul>
