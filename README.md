@@ -1,4 +1,4 @@
-<h1>LaboratorioDeProgramacionIII</h1>
+<h1>Laboratorio de Programacion III</h1>
 <h2>React</h2>
 <ul>
   <li>Practica Cervezas</li>
