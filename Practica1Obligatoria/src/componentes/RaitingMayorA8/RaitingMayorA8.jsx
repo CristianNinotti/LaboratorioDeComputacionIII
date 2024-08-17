@@ -1,6 +1,5 @@
-import peliculas from "../Peliculas/Peliculas";
 
-const RaitingMayorA8 = () => {
+const RaitingMayorA8 = ({peliculas}) => {
     return (
         <>
         <h3>2. Con un imdbRating Mayor a 8.0</h3>
@@ -9,7 +8,7 @@ const RaitingMayorA8 = () => {
             .filter((props) =>
             parseFloat(props.imdbRating) > 8.0 )
             .map((props) => (
-                <div key={props.Title}>
+                <div key={props.Id}>
                     {props.Title}
                 </div>
             ))}
