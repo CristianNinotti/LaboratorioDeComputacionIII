@@ -12,14 +12,13 @@ const BookItem = ({ books }) => {
                     <Card key={Id} className="mx-3" style={{ width: "22rem" }}>
 
                         <Card.Body>
-                            
+
                             <Card.Title>{Title}</Card.Title>
                             <Card.Subtitle>{Author}</Card.Subtitle>
                             <div>{Rating.length} estrellas</div>
                             <p>{pageCount} páginas</p>
                             <Card.Img height={400} variant="top" src={imageUrl !== "" ? imageUrl : "https://bit.ly/47NylZk"}/>
-                            <hr></hr>
-
+                            
                         </Card.Body>
 
                     </Card>

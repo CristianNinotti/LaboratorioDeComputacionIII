@@ -38,6 +38,16 @@ const books = [
             "https://prodimage.images-bn.com/pimages/9781728260839_p0_v2_s1200x630.jpg",
 
 },
+{
+    Id: 5,
+    Title: "50 Sombras de Ninoshi   ",
+    Author: "Ninotti, Cristian",
+    Rating: Array(5).fill("*"),
+    pageCount: 560,
+    imageUrl:
+        "https://scontent-eze1-1.xx.fbcdn.net/v/t39.30808-6/325215397_1345378362880074_1605631398769452011_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGf3Rc4D3pGrkHH9LjnoPqWMLya2IkgXokwvJrYiSBeifBvOTfxqRt1eOBGw2Xff70&_nc_ohc=Qucc7mFNmOsQ7kNvgEy9u56&_nc_ht=scontent-eze1-1.xx&oh=00_AYBi1vYNIhlse1WKTel4vmk-bEhGRq-hvIPZwHGWMJ6VQg&oe=66C9A444",
+
+},
 ];
 
 export default books
