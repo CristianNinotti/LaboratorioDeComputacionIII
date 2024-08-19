@@ -10,6 +10,7 @@ function App() {
       <h1>Books Champion App</h1>
       <p>¡Quiero leer Libros!</p>
       <BookItem books = {books}/>
+      <h2>asd</h2>
     </>
   )
 }
