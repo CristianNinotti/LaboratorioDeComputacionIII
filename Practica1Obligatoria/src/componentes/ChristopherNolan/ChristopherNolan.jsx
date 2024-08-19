@@ -1,14 +1,14 @@
-
+import PropTypes from 'prop-types';
 
 const ChristopherNolan = ({peliculas}) => {
     return (
         <>
             <h3>1. Dirigidas por Cristopher Nolan.(Peliculas)</h3>
             {peliculas
-                .filter((props) => props.Director === 'Christopher Nolan')
-                .map((props) => (
-                    <div key={props.Id}>
-                        {props.Title}
+                .filter(({Director}) => Director === 'Christopher Nolan')
+                .map(({Id, Title}) => (
+                    <div key={Id}>
+                        {Title}
                     </div>
                 ))}
 
@@ -17,12 +17,11 @@ const ChristopherNolan = ({peliculas}) => {
 };
 
 
-
-
-
-
-
-
+ChristopherNolan.propType = {
+    Id: PropTypes.number,
+    Title: PropTypes.string,
+    Director: PropTypes.string
+} 
 
 export default ChristopherNolan;
 
