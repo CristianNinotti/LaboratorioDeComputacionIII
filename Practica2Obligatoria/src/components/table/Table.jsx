@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 const Table = ({ netIncomes }) => {
     return (
         <>
-            <table>
+            <table border={"1px, solid, black"} width ={"300px"}>
                 <thead>
                     <tr>
                         <th>Marca Hamburguesa</th>
