@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 const AverageIncome = ({netIncomes}) => {
    
         const totalIncome = netIncomes.reduce((acumulador, ganancia) => {
-            return acumulador = acumulador + ganancia.income
+            return acumulador += ganancia.income
        
         },0);
         return (
@@ -13,7 +13,7 @@ const AverageIncome = ({netIncomes}) => {
         )}
 
 
-AverageIncome.PropTypes = {
+AverageIncome.propTypes = {
     id: PropTypes.number,
     income: PropTypes.number
 }
